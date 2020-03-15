@@ -192,3 +192,26 @@ a {
     color: #777;
     font-size: 16px;
 }
+.heading-middle {
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+.howto-image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.howto-image#extension-basics {
+    background-image: url("../img/howto/extension-basics.png");
+    width: 829px;
+    height: 546px;
+}
+.howto-image#popup-basics {
+    background-image: url("../img/howto/popup-basics.png");
+    width: 928px;
+    height: 549px;
+    padding-bottom: 80px;
+}
