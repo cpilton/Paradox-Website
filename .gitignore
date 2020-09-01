@@ -36,8 +36,16 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-#idea folder
+# Idea Workspace
 .idea/
-idea/
-.idea
-idea
+
+# VCAP Files
+auth-local.json
+gae-local.json
+env-local.json
+
+# Other Files
+.gcloudignore
+app.yaml
+loggr.iml
+package-lock.json
